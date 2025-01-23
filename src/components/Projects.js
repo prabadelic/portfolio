@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: "WeLoveMovies",
-      description: "Movie theater management app.",
+      description: "Movies app to display information about movies, theaters, and reviews.",
       techStack: "Backend: Node.js, Express, RESTful APIs, PostgreSQL, Knex",
       demo: "https://welovemovies-frontend-8wb2.onrender.com/",
       github: "https://github.com/prabadelic/WeLoveMovies",
