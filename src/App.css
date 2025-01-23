@@ -1,18 +1,37 @@
-section {
-    scroll-margin-top: 70px;
-  }
-  
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+section {
+  scroll-margin-top: 70px;
+}
+
 #contact {
-    min-height: 63vh;
+    min-height: 45vh;
   }
 
+/* Navbar */
+.navbar {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.navbar a {
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+/* Mobile */
   @media (max-width: 768px) {
     #contact {
-      min-height: 71vh; /* Ensure the contact section takes up enough space on mobile */
+      min-height: 61vh; /* Ensure the contact section takes up enough space on mobile */
     }
   }
   

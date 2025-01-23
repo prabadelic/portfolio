@@ -9,8 +9,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_gchsv6k", 
-        "template_f6lhs5m", 
+        "service_gchsv6k",
+        "template_f6lhs5m",
         form.current,
         "2a1wDY00z7nWQ9lD7"
       )
@@ -30,7 +30,10 @@ const Contact = () => {
     <section id="contact" className="bg-dark text-white text-center py-1">
       <div className="container">
         <hr className="my-5" style={{ borderColor: "#8AB4F8" }} />
-        <h2 className="text-center text-uppercase mb-4" style={{ color: "#8AB4F8" }}>
+        <h2
+          className="text-center text-uppercase mb-4"
+          style={{ color: "#8AB4F8" }}
+        >
           Contact
         </h2>
         {/* Social Links */}
@@ -80,7 +83,12 @@ const Contact = () => {
             ></i>
           </a>
         </div>
-        <form ref={form} onSubmit={sendEmail} className="text-white mx-auto" style={{ maxWidth: "600px" }}>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="text-white mx-auto"
+          style={{ maxWidth: "600px" }}
+        >
           <div className="mb-3">
             <input
               type="text"

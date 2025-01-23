@@ -31,8 +31,8 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-           {/* Navbar Links */}
-           <div
+          {/* Navbar Links */}
+          <div
             className="collapse navbar-collapse"
             id="navbarNav"
             ref={navBarRef}

@@ -4,8 +4,10 @@ const Projects = () => {
   const projects = [
     {
       title: "Restaurant Reservation System",
-      description: "Full-stack app to manage reservations and table assignments.",
-      techStack: "Full Stack: React, React Router, JS, HTML/CSS, Node.js, Express, PostgreSQL, Knex",
+      description:
+        "Full-stack app to manage reservations and table assignments.",
+      techStack:
+        "Full Stack: React, React Router, JS, HTML/CSS, Node.js, Express, PostgreSQL, Knex",
       demo: "https://restaurant-reservation-capstone-1.onrender.com/",
       github: "https://github.com/prabadelic/Restaurant-Reservation-Capstone",
       image: "/photos/restaurant-reservation.png",
@@ -14,7 +16,7 @@ const Projects = () => {
       title: "WeLoveMovies",
       description: "Movie theater management app.",
       techStack: "Backend: Node.js, Express, RESTful APIs, PostgreSQL, Knex",
-      demo: "https://welovemovies-frontend-8wb2.onrender.com/", 
+      demo: "https://welovemovies-frontend-8wb2.onrender.com/",
       github: "https://github.com/prabadelic/WeLoveMovies",
       image: "/photos/welovemovies.png",
     },
@@ -22,7 +24,6 @@ const Projects = () => {
       title: "GrubDash",
       description: "Food delivery e-commerce app.",
       techStack: "Backend: Node.js, Express, RESTful APIs, PostgreSQL, Knex",
-      demo: "#", 
       github: "https://github.com/prabadelic/GrubDash",
       image: "/photos/grubdash.png",
     },
@@ -37,7 +38,7 @@ const Projects = () => {
       title: "Recipe App",
       description: "Recipe App built to manage and organize recipes.",
       techStack: "Frontend: React, JS, HTML/CSS",
-      demo: "https://recipe-app-livid-xi.vercel.app/", 
+      demo: "https://recipe-app-livid-xi.vercel.app/",
       github: "https://github.com/prabadelic/my-react-project-recipe-app",
       image: "/photos/recipe.png",
     },
@@ -54,7 +55,10 @@ const Projects = () => {
   return (
     <section id="projects" className="py-1 bg-dark text-white">
       <div className="container">
-        <h2 className="text-center text-uppercase mb-4" style={{ color: "#8AB4F8" }}>
+        <h2
+          className="text-center text-uppercase mb-4"
+          style={{ color: "#8AB4F8" }}
+        >
           Projects
         </h2>
         <div className="row">
@@ -72,18 +76,24 @@ const Projects = () => {
                   }}
                 />
                 <div className="card-body">
-                  <p style={{ color: 'rgb(255, 255, 255)' }}>
+                  <p style={{ color: "rgb(255, 255, 255)" }}>
                     <b>{project.title}</b>
                   </p>
-                  <p className="card-text" style={{ color: 'rgb(255, 255, 255)' }}>
+                  <p
+                    className="card-text"
+                    style={{ color: "rgb(255, 255, 255)" }}
+                  >
                     {project.description}
                   </p>
-                  <p className="card-text mini-text" style={{ color: 'rgb(255, 255, 255)' }}>
+                  <p
+                    className="card-text mini-text"
+                    style={{ color: "rgb(255, 255, 255)" }}
+                  >
                     <i>
                       <u>{project.techStack}</u>
                     </i>
                   </p>
-                  </div>
+                </div>
                 <div className="card-footer d-flex justify-content-between">
                   <a
                     href={project.demo}
