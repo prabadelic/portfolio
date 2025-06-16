@@ -10,8 +10,8 @@ const Title = () => {
       <div className="container">
         {/* Profile Image */}
         <img
-          src="https://media.licdn.com/dms/image/v2/D4E03AQHobmRsnm1W2w/profile-displayphoto-shrink_800_800/B4EZQE18uMGYAg-/0/1735248039487?e=1743033600&v=beta&t=ujNAkEnNO1Ee2mM_GmMVhMmErOHwynEW76cwS6YOt-8"
-          alt="Profile"
+          src="public\headshot.png"
+          alt="Headshot"
           className="border border-3 rounded-circle mb-4"
           style={{ width: "200px", height: "200px" }}
         />
