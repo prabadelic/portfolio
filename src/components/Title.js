@@ -10,7 +10,7 @@ const Title = () => {
       <div className="container">
         {/* Profile Image */}
         <img
-          src="public\headshot.png"
+          src="/headshot.png"
           alt="Headshot"
           className="border border-3 rounded-circle mb-4"
           style={{ width: "200px", height: "200px" }}
